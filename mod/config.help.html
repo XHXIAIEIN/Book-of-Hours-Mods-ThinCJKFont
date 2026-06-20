@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ThinCJKFont 配置说明</title>
+<style>
+body{max-width:760px;margin:40px auto;padding:0 20px;font-family:'Segoe UI','Microsoft YaHei',sans-serif;line-height:1.7;color:#3a3128;background:#f4ecdd;}
+h1{font-size:1.5em;color:#685D4F;border-bottom:2px solid #cdbfa3;padding-bottom:.3em;}
+p.intro{color:#5a4f3f;}
+code{background:#e8ddc6;padding:.1em .4em;border-radius:3px;font-family:Consolas,monospace;}
+table{border-collapse:collapse;width:100%;margin-top:1em;}
+th,td{text-align:left;padding:.5em .7em;border-bottom:1px solid #ddd0b5;vertical-align:top;}
+th{background:#e8ddc6;color:#685D4F;}
+tr.group td{background:#efe5d0;font-weight:bold;color:#7a6a52;}
+td.key{font-family:Consolas,monospace;white-space:nowrap;color:#4a3f30;}
+td.def{font-family:Consolas,monospace;color:#8a7a5e;white-space:nowrap;}
+</style>
+</head>
+<body>
+<h1>ThinCJKFont 配置说明</h1>
+<p class="intro">编辑同目录的 <code>config.json</code>，保存即时生效，无需重启。下表每个键都能写进 <code>config.json</code>；不写或删掉某个键，该项就保持游戏原样。把 <code>enabled</code> 改成 <code>false</code> 可整体恢复原版。</p>
+<table>
+<tr><th>键</th><th>默认</th><th>说明</th></tr>
+<tr><td class="key">configVersion</td><td class="def">1</td><td>由 mod 维护, 请勿手改</td></tr>
+<tr><td class="key">enabled</td><td class="def">true</td><td>总开关, false 恢复原版</td></tr>
+<tr class="group"><td colspan="3">字重</td></tr>
+<tr><td class="key">normalWeight</td><td class="def">0.25</td><td>正文字重, 越大越粗、越小越细</td></tr>
+<tr><td class="key">boldWeight</td><td class="def">0.85</td><td>粗体字重</td></tr>
+<tr><td class="key">thickness</td><td class="def">0</td><td>整体加粗</td></tr>
+<tr class="group"><td colspan="3">斜体</td></tr>
+<tr><td class="key">isDisableItalic</td><td class="def">true</td><td>取消斜体倾斜</td></tr>
+<tr><td class="key">italicColor</td><td class="def">#FFE300</td><td>斜体颜色, 留空则不改色</td></tr>
+<tr class="group"><td colspan="3">字形缩放</td></tr>
+<tr><td class="key">glyphWidthScale</td><td class="def">1</td><td>横向比例, 小于 1 变窄</td></tr>
+<tr><td class="key">glyphHeightScale</td><td class="def">—</td><td>纵向比例</td></tr>
+<tr class="group"><td colspan="3">进阶 (按需添加; 删掉该键即恢复原样)</td></tr>
+<tr><td class="key">normalSpacing</td><td class="def">—</td><td>正文字距</td></tr>
+<tr><td class="key">boldSpacing</td><td class="def">—</td><td>粗体字距</td></tr>
+<tr><td class="key">normalStyleWeight</td><td class="def">—</td><td>正文合成字重</td></tr>
+<tr><td class="key">boldStyleWeight</td><td class="def">—</td><td>粗体合成字重</td></tr>
+<tr><td class="key">outlineWidth</td><td class="def">—</td><td>描边宽度</td></tr>
+<tr><td class="key">outlineSoftness</td><td class="def">—</td><td>描边柔化</td></tr>
+<tr><td class="key">outlineColor</td><td class="def">—</td><td>描边颜色</td></tr>
+</table>
+</body>
+</html>

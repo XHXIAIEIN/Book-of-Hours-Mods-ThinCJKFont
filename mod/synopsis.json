@@ -1,0 +1,8 @@
+{
+	"name": "ThinCJKFont",
+	"author": "XHXIAIEIN",
+	"version": "1.1.0",
+	"description": "把中文字调细：粗体不臃肿、斜体改暗色不倾斜。可自定义字重，实时生效。不替换字形、零缺字。",
+	"description_long": "微调中文字体字重，让粗体不再臃肿、斜体改暗色。\n\n想自己调：打开 mods 目录下「ThinCJKFont」内的 config.json，保存即时生效，无需重启；选项说明见同目录 config.help.html。\n\n⚠ 本模组含第三方代码（DLL），需同时启用「Ghirbi」并重启游戏才生效。",
+	"tags": ["Font", "Localisation"]
+}

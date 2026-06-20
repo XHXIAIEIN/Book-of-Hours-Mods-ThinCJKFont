@@ -1,0 +1,11 @@
+{
+	"configVersion": 2,
+	"enabled": true,
+
+	"normalWeight": 0.25,
+	"boldWeight": 0.85,
+	"thickness": 0,
+
+	"isDisableItalic": true,
+	"italicColor": "#FFE300"
+}
