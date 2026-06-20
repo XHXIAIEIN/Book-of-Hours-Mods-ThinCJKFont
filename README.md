@@ -49,5 +49,3 @@ mod/   即装即用的 mod(创意工坊上传的就是它)
 src/   C# 源码与工程文件
 assets/  README 封面图
 ```
-
-作者 XHXIAIEIN。仅调整渲染,不分发任何字体文件。
