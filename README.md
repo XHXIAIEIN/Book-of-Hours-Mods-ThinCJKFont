@@ -4,9 +4,11 @@
 
 把《司辰之书》(Book of Hours) 内置简体中文调细:正文变细、粗体不臃肿、斜体改暗色不倾斜。不替换字形、零缺字。参数都在 `config.json`,存盘即时生效,无需重启。
 
+**创意工坊:** https://steamcommunity.com/sharedfiles/filedetails/?id=3748058400
+
 ## 安装
 
-1. 订阅本 mod。
+1. [订阅本 mod](https://steamcommunity.com/sharedfiles/filedetails/?id=3748058400)。
 2. 同时订阅并启用 **Ghirbi, the Gatekeeper(守门人吉尔比)** —— 游戏靠它放行代码型 mod。
 3. 重启游戏,在「设置 → 第六史 / MODS」确认两者已启用。
 
